@@ -69,6 +69,15 @@
     <Compile Include="InventorySystem\AddVendor.designer.cs">
       <DependentUpon>AddVendor.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventorySystem\Admin.cs" />
+    <Compile Include="InventorySystem\ClassInventory.cs" />
+    <Compile Include="InventorySystem\ConnectionString.cs" />
+    <Compile Include="InventorySystem\CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventorySystem\CustomerDetail.designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventorySystem\AddCategory.resx">
@@ -79,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InventorySystem\AddVendor.resx">
       <DependentUpon>AddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventorySystem\CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
