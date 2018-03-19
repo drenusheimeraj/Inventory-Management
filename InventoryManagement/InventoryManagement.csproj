@@ -51,6 +51,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventorySystem\AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventorySystem\AddCategory.designer.cs">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventorySystem\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventorySystem\AddProduct.designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="InventorySystem\AddVendor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +71,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="InventorySystem\AddCategory.resx">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventorySystem\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InventorySystem\AddVendor.resx">
       <DependentUpon>AddVendor.cs</DependentUpon>
     </EmbeddedResource>
