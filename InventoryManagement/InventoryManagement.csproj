@@ -99,6 +99,12 @@
     <Compile Include="InventorySystem\CustomerRegistration.designer.cs">
       <DependentUpon>CustomerRegistration.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventorySystem\DBInventoryDataSet.Designer.cs" />
+    <Compile Include="InventorySystem\DBInventoryDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBInventoryDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventorySystem\AddCategory.resx">
@@ -125,6 +131,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="InventorySystem\DBInventoryDataSet.xsc">
+      <DependentUpon>DBInventoryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InventorySystem\DBInventoryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBInventoryDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InventorySystem\DBInventoryDataSet.xss">
+      <DependentUpon>DBInventoryDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
