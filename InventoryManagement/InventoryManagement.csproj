@@ -141,6 +141,13 @@
       <DependentUpon>ProductDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="InventorySystem\ProductInterface.cs" />
+    <Compile Include="InventorySystem\Program.cs" />
+    <Compile Include="InventorySystem\Staff Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventorySystem\Staff Form.designer.cs">
+      <DependentUpon>Staff Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventorySystem\AddCategory.resx">
@@ -172,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InventorySystem\ProductDetail.resx">
       <DependentUpon>ProductDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventorySystem\Staff Form.resx">
+      <DependentUpon>Staff Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
