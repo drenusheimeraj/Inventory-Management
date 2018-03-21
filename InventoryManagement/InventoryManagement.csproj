@@ -132,6 +132,15 @@
     <Compile Include="InventorySystem\OrderDetail.designer.cs">
       <DependentUpon>OrderDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventorySystem\Person.cs" />
+    <Compile Include="InventorySystem\Product.cs" />
+    <Compile Include="InventorySystem\ProductDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventorySystem\ProductDetail.designer.cs">
+      <DependentUpon>ProductDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventorySystem\ProductInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventorySystem\AddCategory.resx">
@@ -160,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InventorySystem\OrderDetail.resx">
       <DependentUpon>OrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventorySystem\ProductDetail.resx">
+      <DependentUpon>ProductDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
