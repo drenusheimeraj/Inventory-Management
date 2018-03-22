@@ -158,6 +158,13 @@
     <Compile Include="InventorySystem\UserException.cs" />
     <Compile Include="InventorySystem\UserHelper.cs" />
     <Compile Include="InventorySystem\UserRole.cs" />
+    <Compile Include="InventorySystem\VendorDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventorySystem\VendorDetails.designer.cs">
+      <DependentUpon>VendorDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventorySystem\VendorInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventorySystem\AddCategory.resx">
@@ -195,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InventorySystem\Transaction.resx">
       <DependentUpon>Transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventorySystem\VendorDetails.resx">
+      <DependentUpon>VendorDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
