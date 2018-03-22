@@ -154,6 +154,10 @@
     <Compile Include="InventorySystem\Transaction.designer.cs">
       <DependentUpon>Transaction.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventorySystem\User.cs" />
+    <Compile Include="InventorySystem\UserException.cs" />
+    <Compile Include="InventorySystem\UserHelper.cs" />
+    <Compile Include="InventorySystem\UserRole.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventorySystem\AddCategory.resx">
