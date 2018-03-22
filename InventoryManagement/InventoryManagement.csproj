@@ -215,6 +215,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="InventorySystem\app.config" />
     <None Include="InventorySystem\DBInventoryDataSet.xsc">
       <DependentUpon>DBInventoryDataSet.xsd</DependentUpon>
     </None>
@@ -242,10 +243,6 @@
   <ItemGroup>
     <Content Include="InventorySystem\DBInventory.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="InventorySystem\DBInventory_log.LDF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>DBInventory.mdf</DependentUpon>
     </Content>
     <Content Include="InventorySystem\InventorySystem.csproj" />
   </ItemGroup>
